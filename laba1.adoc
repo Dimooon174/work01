@@ -1,20 +1,20 @@
-=== _*Лабораторная работа №1*_
+=== _Лабораторная работа №1_
 
 Первым делом был создан файл main.cpp. Далее подключен к проекту файл cstartup.cpp
-Созданы папки _AbstractHardware/Registers/FiledValues, Common_. Создана структура проекта в соотвествии со структурой папок
+Созданы папки _AbstractHardware/Registers/FiledValues, Common_. Создана структура проекта в соотвествии со структурой папок.
 
 .Структура программы
-image::Photooo/structura.png[]
+image::Photooo/structura.png[300,200]
 Настроены STACK, HEAP.
 
 .Установка значений CSTACK, HEAP
-image::Photooo/stack and heap.png[]
+image::Photooo/stack and heap.png[300,200]
 
 Далее было скопировано содержимое папки из папки _AHardware/Registers_ и _Common_ с проекта преподавателя в свою папку.
 А также написан код программы в main.cpp.
 
 .Код программы
-image::Photooo/cod programms.png[]
+image::Photooo/cod programms.png[400,200]
 
 При первой попытке откомпилировать и отлинковать программу  через _Rebuild all_ произошла ошибка.
 
@@ -51,7 +51,7 @@ image::Photooo/prog work.png[]
 image::Photooo/1.png[]
 
 .Микроконтроллер в работе
-image::Photooo/plata work.png[]
+image::Photooo/plata work.png[700,400]
 
 После этого был запущен анализатор стека. и создан _.map_ файл.
 
@@ -109,7 +109,7 @@ HEAР это область памяти, где размещаются дина
 
 *Ответ:*
 
-image::Photooo/sxema 5.png[]
+image::Photooo/sxema 5.png[1200,600]
 
 
 *6)* Зачем нужная отладка и в каких случаях она применяется? Для чего применяются точки остановки?
